@@ -1,5 +1,6 @@
 # Sudoku SAT Solver
 
+### This is a Course (CS228) project under Prof. S. Krishna.
 A powerful Sudoku solver that uses **Boolean Satisfiability (SAT)** to solve any valid 9×9 Sudoku puzzle. This implementation encodes Sudoku rules as a CNF (Conjunctive Normal Form) formula and uses the PySAT library with the Glucose solver.
 
 ## Features
@@ -142,35 +143,6 @@ The solver generates approximately 11,000 clauses encoding:
 - Box constraints: ~2,900 clauses
 - Given clues: variable (depends on puzzle)
 
-## Performance
-
-- **Typical solving time**: < 100ms
-- **Easy puzzles**: ~10-50ms
-- **Hard puzzles**: ~50-200ms
-- **World's hardest Sudoku**: < 1 second
-
-## Troubleshooting
-
-### "No solution exists"
-
-This means:
-- The puzzle is invalid (contradictory clues)
-- The puzzle has no unique solution
-- Input was entered incorrectly
-
-### Import Error
-
-If you get `ModuleNotFoundError: No module named 'pysat'`:
-```bash
-pip install python-sat
-```
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest features
-- Submit pull requests
 
 ## License
 
