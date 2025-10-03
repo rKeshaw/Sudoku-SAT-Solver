@@ -3,15 +3,6 @@
 ### This is a Course (CS228) project under Prof. S. Krishna.
 A powerful Sudoku solver that uses **Boolean Satisfiability (SAT)** to solve any valid 9×9 Sudoku puzzle. This implementation encodes Sudoku rules as a CNF (Conjunctive Normal Form) formula and uses the PySAT library with the Glucose solver.
 
-## Features
-
-- ✅ Solves any valid 9×9 Sudoku puzzle
-- ✅ Uses efficient SAT solver (Glucose)
-- ✅ Interactive terminal input
-- ✅ Pretty-printed output
-- ✅ Example puzzle included
-- ✅ Fast solving (typically < 1 second)
-
 ## How It Works
 
 The solver encodes Sudoku rules as boolean clauses:
